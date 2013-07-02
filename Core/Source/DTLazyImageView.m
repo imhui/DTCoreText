@@ -106,6 +106,7 @@ NSString * const DTLazyImageViewDidFinishDownloadNotification = @"DTLazyImageVie
 			
 			return;
 		}
+		self.image = self.placeholder;
 		
 		[self loadImageAtURL:_url];
 	}	
