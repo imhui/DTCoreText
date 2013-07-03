@@ -40,6 +40,12 @@ extern NSString * const DTLazyImageViewDidFinishDownloadNotification;
  */
 
 /**
+ The placeholder image
+ */
+@property (nonatomic, strong) UIImage *placeholder;
+
+
+/**
  The URL of the remote image
  */
 @property (nonatomic, strong) NSURL *url;
